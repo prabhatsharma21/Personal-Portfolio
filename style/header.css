@@ -1,0 +1,124 @@
+ .page1{
+   height: 1000px;
+   background-color: #1c1d25;
+   margin-top: -8px;  
+   margin-right: -8px;
+   margin-left: -8px;
+ }
+ .head{
+ height: 80px;
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    align-items: center;
+    margin-right: 20px;
+ }
+ .left, .right{
+   display: flex;
+   
+   flex-direction: row;
+   justify-content: space-between;
+   position: static;
+ }
+ .left:hover{
+  transform: scale(1.2);
+  transition: 0.15s;
+
+ }
+ .logo{
+   margin-left: 30px;
+    height: 80px;
+ }
+ .bar{
+
+   font-size: 18px;
+   color: #c4c0c0;
+   margin-left: 20px;
+   margin-right: 20px;
+   cursor: pointer;
+ }
+ .bar:hover{
+  color: white;
+ }
+ .about{
+  margin-top: 310px;
+  margin-left: 60px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex: 1.2;
+
+ }
+ .name{
+  display: flex;
+  
+  font-family: 'League Spartan', sans-serif;
+  font-size: 80px;
+  color: white;
+  z-index: 20;
+  
+ }
+ .aboutme{
+  margin-top: 10px;
+  color: white;
+  z-index: 20;
+ }
+ .main{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between ;
+
+ }
+ .middlelogo{
+  margin: 0;
+  height: 800px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0.5;
+ }
+ .iddlelogo{
+  
+  position: absolute;
+  height: 500px;
+  margin-top: 140px;
+  margin-left: auto; 
+  margin-right: auto;
+  z-index: 10;
+ }
+ .link{
+  display: flex;
+  width: 50px;
+  flex-direction: column;
+  
+  margin-top: 310px;
+
+ }
+ 
+ .twitter{
+  position: relative;
+  margin-bottom: 30px;
+  height: 27px;
+  width: 27px;
+  cursor: pointer;
+  
+ 
+ }
+ .twitter:hover {
+  transform: scale(1.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: 0.15s;
+}
+ .middlem{
+  display: flex;
+  flex: 1;
+
+ }
