@@ -25,7 +25,11 @@
     opacity: 0;
     transition: opacity 0.3s;
     pointer-events: none;
-    white-space: nowrap;
+ 
+    overflow-wrap: break-word;
+   
+  	overflow: hidden;
+  	
 }
 .text{
     margin-left: 105px;
