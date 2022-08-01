@@ -1,10 +1,12 @@
 .page2{
     display: flex;
+    height: auto;
     
     flex-direction: column;
     justify-content: space-between;
     background-color: #f3f3f3;
     align-items: center;
+    padding-bottom: 60px;
 }
 .education{
     margin-top: 80px;
@@ -115,3 +117,5 @@
     margin-left: 100px;
     margin-top: 50px;
 }
+
+
